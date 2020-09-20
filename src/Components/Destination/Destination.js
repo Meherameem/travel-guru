@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Destination = () => {
+const Destination = (props) => {
+    console.log(props);
     return (
         <div>
             <h1>Destination</h1>

@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <div style={{display: 'flex',flexDirection:'row'}}>
-                <img className={styles.image} src={require('../../resourses/Logo.png')} alt="logo"></img>
+                <img className={styles.image} src={require('../../resources/Logo.png')} alt="logo"></img>
                 <Form>
                     <Form.Control className={styles.form} type="text" placeholder="Search Your Destination" />
                 </Form>

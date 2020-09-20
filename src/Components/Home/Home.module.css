@@ -46,6 +46,6 @@ body{
 .homeCard{
     display:flex;
     flexDirection:row;
-    margin-left:635px;
-    margin-top:236px;
+    margin-left:300px;
+    margin-top:200px;
 }
