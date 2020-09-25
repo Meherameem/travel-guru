@@ -1,4 +1,3 @@
-import firebase from 'firebase';
 const firebaseConfig = {
     apiKey: "AIzaSyCObbaRFJwdDVvihQ96V3kUDiLN8CQreDw",
     authDomain: "travel-guru-d8acb.firebaseapp.com",
@@ -8,5 +7,4 @@ const firebaseConfig = {
     messagingSenderId: "143940676519",
     appId: "1:143940676519:web:2dd82cd4f8aed359c4a482"
   };
-  const fire = firebase.initializeApp(firebaseConfig);
-  export default fire;
+  export default firebaseConfig;

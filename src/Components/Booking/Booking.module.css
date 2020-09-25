@@ -1,0 +1,44 @@
+.booking_info{
+    padding-top: 150px;
+    margin-left:100px;
+    margin-top:10px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.title_info{
+  position: relative;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 40.6842px;
+line-height: 20px;
+}
+
+
+.title_description{
+  font-family: Montserrat;
+  text-align: left;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+
+.booking_form{
+width: 370px;
+height: 427px;
+left: 2005px;
+top: 217px;
+margin-top: 150px;
+margin-left: 310px;
+
+background: #FFFFFF;
+}
+
+
+.booking_button{
+    width: 250px;
+
+}

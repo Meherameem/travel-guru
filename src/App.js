@@ -11,7 +11,10 @@ import News from './Components/News/News';
 import Destination from './Components/Destination/Destination';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import Booking from './Components/Booking/Booking';
+import Search from './Components/Search/Search';
 import Login from './Components/Login/Login';
+import SignIn from "./Components/SignIn/SignIn";
 
 function App() {
   return (
@@ -36,11 +39,21 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
+          <Route path="/booking/:id">
+            <Booking></Booking>
+          </Route>
+          <Route path="/search/:id">
+            <Search></Search>
+          </Route>
+          <Route path="/signin">
+            <SignIn></SignIn>
+          </Route>
           <Route path="/">
             <Home></Home>
           </Route>
+          
         </Switch>
-        
+
       </Router>
     </div>
   );

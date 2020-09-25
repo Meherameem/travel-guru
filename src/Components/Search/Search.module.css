@@ -1,0 +1,28 @@
+.hotel_info{
+  margin-top: 100px;
+  width: 800px;
+}
+
+.for_padding{
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.title_style{
+font-weight: 900;
+text-align: left;
+
+}
+
+.other_details{
+  text-align: left;
+}
+
+.star_design{
+  float: left;
+
+}
+
+.star_color{
+  color: yellow;
+}
